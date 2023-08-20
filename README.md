@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="" height="250">
+  <img  src="https://github.com/developer-routes/developer-routes/blob/b84ba135719830feb380eec3ef2c4e9d7f525e2f/images/dev-route.png" height="80">
 </p>
-
-<p align="center">Developer Routes</p>
 
 <p align="center">
 <a href="https://github.com/developer-routes/developer-routes/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/developer-routes/developer-routes"></a>
