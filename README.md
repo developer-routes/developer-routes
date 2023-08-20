@@ -23,9 +23,8 @@ Developer Routes Community offers a range of resources and opportunities to help
   [![NPM](https://img.shields.io/badge/PNPM-%23000000.svg?style=for-the-badge&logo=pnpm&logoColor=white)](https://pnpm.io/)
 
 </p>
-
-
-q    ### Installation
+ 
+ ### Installation
 
 1. Fork the repo
 2. Clone the repository `git clone https://github.com/developer-routes/developer-routes.git`
