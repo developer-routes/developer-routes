@@ -34,6 +34,11 @@ Developer Routes Community offers a range of resources and opportunities to help
 6. Run `pnpm start` to start the application
 7. Visit [http://localhost:3000](http://localhost:3000) to view the application
 
+## Discord
+Join our community
+
+[![Discord](https://img.shields.io/badge/discord-%23000000.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/xpVd7jYf)
+
 ## Thanks to all the contributors ❤️
 
 <img src="https://contrib.rocks/image?repo=developer-routes/developer-routes"/>
