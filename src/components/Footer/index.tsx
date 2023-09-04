@@ -4,7 +4,9 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div>footer</div>
+    <footer>
+      <p className='text-center py-5'>{new Date().getFullYear()} © Copyrights by Developer Routes . All rights reserved.</p>
+    </footer>
   )
 }
 
