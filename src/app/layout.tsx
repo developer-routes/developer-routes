@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from 'next/font/local'
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const myFont = localFont({ src: './../assets/fonts/Campton-Bold.woff2' })
 
 export const metadata: Metadata = {
   title: "Developer Routes - Community",
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={myFont.className}>
         <NavBar />
         {children}
         <Footer />

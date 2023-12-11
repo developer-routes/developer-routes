@@ -6,7 +6,7 @@ export default function Home() {
       <div className='flex flex-col mt-10 items-center space-y-5 w-full '>
           <h1 className='text-7xl font-semibold leading-tight'>Community for Connection, <br></br> Creativity & Collaboration</h1>
           <p>Made by and for creatives who believe in the power of ideas and the joy of making them happen</p>
-          <button className='border-2 rounded-full p-4'>Join our community</button>
+          <button className='border-2 rounded-full p-4 hover:bg-blue-950'>Join our community</button>
       </div>
     </main>
   )
