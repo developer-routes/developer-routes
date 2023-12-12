@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
-const myFont = localFont({ src: './../assets/fonts/Campton-Bold.woff2' })
+const myFont = localFont({ src: "./../assets/fonts/Campton-Bold.woff2" });
 
 export const metadata: Metadata = {
   title: "Developer Routes - Community",
@@ -20,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={myFont.className}>
-        <NavBar />
-        {children}
-        <Footer />
+        <main className="flex flex-col p-3 h-screen bg-gradient-to-b from-black to-blue-800">
+          <NavBar />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );
