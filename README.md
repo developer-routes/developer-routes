@@ -10,9 +10,8 @@
 </p>
 
 ## About us
-Developer Routes Community is a dynamic and inclusive platform designed to cater to the needs of developers at various skill levels and interests. 
-Whether you're a novice programmer looking to learn the ropes, an experienced coder aiming to refine your skills, or a professional seeking to network and grow your career, 
-Developer Routes Community offers a range of resources and opportunities to help you excel in the world of software development.
+Developer Routes is a platform that provides a comprehensive array of tools for developers, spanning various aspects including cloud computing and artificial intelligence.
+
 ### Prerequisites
 
 <p>
