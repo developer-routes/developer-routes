@@ -7,21 +7,21 @@ type Props = {}
 function NavBar({}: Props) {
   const navList = [
     {
-      title:"About",
-      path:'/about'
-    }, 
-    {
-      title:"Blogs",
-      path:'/blogs'
-    },  
-    {
-      title:"Team",
-      path:'/team'
-
+      title:"Products",
+      path:'/'
     },
     {
-      title:"LeaderBoard"
-    }
+      title:"Solutions",
+      path:'/'
+    },
+    {
+      title:"Pricing",
+      path:'/pricing'
+    },  
+    {
+      title:"Docs",
+      path:'/docs'
+    },
   ]
   return (
     <header className='border-2 rounded-full flex m-5 justify-between px-5 '>
@@ -34,7 +34,7 @@ function NavBar({}: Props) {
          />
       </div>
       <nav className='order-last'>
-        <ul className='flex p-3'>
+        <ul className='flex p-3 items-center'>
           {navList.map(item=>(
             <Link href={`${item.path}`} className='p-2'>{item.title}</Link>
           ))}
