@@ -6,7 +6,7 @@ const Footer = (props: Props) => {
   return (
     <footer>
       <p className="text-center py-5">
-        {new Date().getFullYear()} © Copyrights by Developer Routes . All rights
+        {" (C) "}Copyrights by Developer Routes - {new Date().getFullYear()} . All rights
         reserved.
       </p>
     </footer>
