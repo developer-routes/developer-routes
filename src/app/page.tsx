@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const route = useRouter();
   return (
-    <div className="flex flex-col mt-10 items-center space-y-5 w-full h-screen ">
+    <div className="flex flex-col mt-10 items-center justify-center space-y-5 w-full h-screen">
       <h1 className="text-7xl font-semibold leading-tight">
         Community for Connection, <br></br> Creativity & Collaboration
       </h1>

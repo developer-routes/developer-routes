@@ -13,15 +13,7 @@ function NavBar({}: Props) {
     {
       title:"Blogs",
       path:'/blogs'
-    },  
-    {
-      title:"Team",
-      path:'/team'
-
     },
-    {
-      title:"LeaderBoard"
-    }
   ]
   return (
     <header className='border-2 rounded-full flex m-5 justify-between px-5 '>
