@@ -20,7 +20,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@developer-routers/app/*": ["./src/app/*"],
+      "@developer-routers/fonts/*": ["./src/assets/fonts/*"],
+      "@developer-routers/common/components/*": ["./src/common/components/*"],
+      "@developer-routers/common/constants/*": ["./src/common/constants/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "commitlint.config.ts"],

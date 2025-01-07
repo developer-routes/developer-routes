@@ -1,16 +1,15 @@
-import "./globals.css";
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
+import { Metadata } from "next";
 
-const myFont = localFont({ src: "./../assets/fonts/Campton-Bold.woff2" });
+import NavBar from "@developer-routers/common/components/navbar.component";
+import Footer from "@developer-routers/common/components/footer.component";
+import { metadata as globalMetadata } from "@developer-routers/common/constants/meta.constant";
+import "@developer-routers/app/globals.css";
 
-export const metadata: Metadata = {
-  title: "Developer Routes - Community",
-  description:
-    "Empowering Developers to Excel 🚀 | Building Connections at Developer Routes Community | Passionate about Fostering Growth in the Software Development World 🌐",
-};
+export async function generateMetadata() {
+  return {
+    ...globalMetadata,
+  } as Metadata;
+}
 
 export default function RootLayout({
   children,
@@ -19,12 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>
-        <main className="flex flex-col p-3 h-screen bg-gradient-to-b from-black to-blue-800">
-          <NavBar />
-          {children}
-          <Footer />
-        </main>
+      <body className="p-5">
+        <NavBar />
+        <main className="flex flex-col p-3 h-screen">{children}</main>
+        <Footer />
       </body>
     </html>
   );
